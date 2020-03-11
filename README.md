@@ -196,7 +196,7 @@ You may use a different model by:
       ...
 
       def redactor_authenticate_user!
-        authenticate_admin_user! # devise before_filter
+        authenticate_admin_user! # devise before_action
       end
 
       def redactor_current_user
